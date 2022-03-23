@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          cd ARWatch
+          cd https://github.com/jtmaddux-hub/ARWatch.git
           rm -rf package-lock.json npm-shrinkwrap.json node_modules
           npm cache clean --force
           npm cache verify
