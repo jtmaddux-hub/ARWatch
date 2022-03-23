@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'ARWatch'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B3ED291376F1459B90D6C5D2562FD6F8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_25C92C13C1114993BC104EFC76AE85F8 }}
           package: .
